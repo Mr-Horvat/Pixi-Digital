@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git -C \"/Users/piximan./Documents/Vebsajt/pixi-digital\" add .)",
+      "Bash(git -C \"/Users/piximan./Documents/Vebsajt/pixi-digital\" commit -m \"Add The Future video\")",
+      "Bash(git -C \"/Users/piximan./Documents/Vebsajt/pixi-digital\" push)"
+    ],
+    "additionalDirectories": [
+      "/Users/piximan./Documents/Vebsajt/pixi-digital",
+      "/Users/piximan./Documents/Vebsajt/Vebsajt slajdovi"
+    ]
+  }
+}
