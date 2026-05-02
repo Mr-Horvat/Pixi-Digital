@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixi Digital – Web Design & AI Automation | Bavaria, Germany</title>
+  <meta name="description" content="Pixi Digital offers professional web design for small businesses, AI workflow automation, and AI chatbots. Based in Bavaria, Germany. Serving clients in DE, EN, HU, HR, SR." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">
+        <span class="logo-dot"></span>
+        Pixi<span class="logo-accent">Digital</span>
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="btn btn--nav">Let's Talk</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__shapes">
+      <div class="shape shape--1"></div>
+      <div class="shape shape--2"></div>
+      <div class="shape shape--3"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__tag">
+        <span class="tag-dot"></span>
+        Available for new projects
+      </div>
+      <h1 class="hero__title">
+        Web & AI Solutions<br />
+        for <span class="gradient-text">Growing Businesses</span>
+      </h1>
+      <p class="hero__sub">
+        I help small businesses in the DACH region and beyond get online, automate workflows, and engage customers — with modern websites and intelligent AI tools.
+      </p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary">Start a Project</a>
+        <a href="#portfolio" class="btn btn--ghost">View Work</a>
+      </div>
+      <div class="hero__languages">
+        <span class="lang-label">I speak:</span>
+        <div class="lang-chips">
+          <span class="chip">🇩🇪 Deutsch</span>
+          <span class="chip">🇬🇧 English</span>
+          <span class="chip">🇭🇺 Magyar</span>
+          <span class="chip">🇭🇷 Hrvatski</span>
+          <span class="chip">🇷🇸 Srpski</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I offer</span>
+        <h2>Services</h2>
+        <p>From your first website to intelligent automation — I cover the digital essentials that move small businesses forward.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__number">01</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="8" width="40" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 44h16M24 36v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M14 20l6 6 14-12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Web Design for Small Businesses</h3>
+          <p>Fast, modern, mobile-friendly websites that turn visitors into customers. Clean code, SEO-ready, and easy for you to manage.</p>
+          <ul class="service-card__features">
+            <li>Responsive design</li>
+            <li>SEO optimization</li>
+            <li>Contact forms & booking</li>
+            <li>Performance & speed</li>
+            <li>Ongoing support</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Get a quote →</a>
+        </div>
+
+        <div class="service-card service-card--featured">
+          <div class="service-card__number">02</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 4v6M24 38v6M4 24h6M38 24h6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M11.5 11.5l4.25 4.25M32.25 32.25l4.25 4.25M11.5 36.5l4.25-4.25M32.25 15.75l4.25-4.25" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="service-card__badge">Most Popular</div>
+          <h3>AI Workflow Automation</h3>
+          <p>Cut repetitive tasks and save hours each week. I connect your tools and automate your business processes using modern AI platforms.</p>
+          <ul class="service-card__features">
+            <li>Process analysis & mapping</li>
+            <li>n8n / Make / Zapier flows</li>
+            <li>CRM & email automation</li>
+            <li>Document processing</li>
+            <li>Custom AI pipelines</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__number">03</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 32V12a4 4 0 014-4h24a4 4 0 014 4v16a4 4 0 01-4 4H16l-8 8V32z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <circle cx="17" cy="22" r="2" fill="currentColor"/>
+              <circle cx="24" cy="22" r="2" fill="currentColor"/>
+              <circle cx="31" cy="22" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>AI Chatbots for Business</h3>
+          <p>Custom AI assistants that answer customer questions 24/7, qualify leads, and book appointments — in your language, your tone.</p>
+          <ul class="service-card__features">
+            <li>Multilingual support</li>
+            <li>Website & WhatsApp integration</li>
+            <li>Lead qualification</li>
+            <li>Appointment booking</li>
+            <li>Custom knowledge base</li>
+          </ul>
+          <a href="#contact" class="service-card__link">Get a demo →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container about__layout">
+      <div class="about__visual">
+        <div class="about__card about__card--main">
+          <div class="about__avatar">PD</div>
+          <strong>Pixi Digital</strong>
+          <span>Bavaria, Germany</span>
+        </div>
+        <div class="about__card about__card--stat">
+          <strong>5+</strong>
+          <span>Languages spoken</span>
+        </div>
+
+        <div class="about__flag-row">
+          <span title="Germany">🇩🇪</span>
+          <span title="Austria">🇦🇹</span>
+          <span title="Switzerland">🇨🇭</span>
+          <span title="Croatia">🇭🇷</span>
+          <span title="Hungary">🇭🇺</span>
+          <span title="Serbia">🇷🇸</span>
+        </div>
+      </div>
+
+      <div class="about__text">
+        <span class="section-tag">About me</span>
+        <h2>Your digital partner<br />in the heart of Bavaria</h2>
+        <p>
+          I'm a freelance web designer and AI specialist based in Bavaria, Germany. I work with small businesses, craftspeople, and entrepreneurs who need a strong digital presence — without the complexity of a large agency.
+        </p>
+        <p>
+          What sets me apart is my ability to communicate with clients across Central and Southeastern Europe in their native language. Whether you're a German Handwerker, a Croatian startup, or a Hungarian retailer — I understand your market and your customers.
+        </p>
+
+        <div class="about__values">
+          <div class="value-item">
+            <div class="value-icon">&#128640;</div>
+            <div>
+              <strong>Fast delivery</strong>
+              <p>Most projects delivered within 2–4 weeks.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">&#128172;</div>
+            <div>
+              <strong>5 languages, 0 misunderstandings</strong>
+              <p>German · English · Hungarian · Croatian · Serbian</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">&#128200;</div>
+            <div>
+              <strong>Results-focused</strong>
+              <p>Every project is built to generate real business outcomes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recent work</span>
+        <h2>Portfolio</h2>
+        <p>A look at some of the projects I've built for real clients.</p>
+      </div>
+
+      <div class="portfolio__grid">
+
+        <div class="portfolio-card portfolio-card--featured">
+          <div class="portfolio-card__preview">
+            <div class="preview-browser">
+              <div class="preview-browser__bar">
+                <span></span><span></span><span></span>
+                <div class="preview-browser__url">lasercnc-allgaeu.de</div>
+              </div>
+              <div class="preview-browser__content dark-preview">
+                <div class="dp-nav"></div>
+                <div class="dp-hero">
+                  <div class="dp-title"></div>
+                  <div class="dp-sub"></div>
+                  <div class="dp-btn"></div>
+                </div>
+                <div class="dp-cards">
+                  <div class="dp-card"></div>
+                  <div class="dp-card"></div>
+                  <div class="dp-card"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-card__info">
+            <div class="portfolio-card__tags">
+              <span class="tag">Web Design</span>
+              <span class="tag">German</span>
+              <span class="tag">Local Business</span>
+            </div>
+            <h3>LaserCNC Allgäu</h3>
+            <p>
+              A professional German-language website for a laser engraving and CNC milling company in Lindenberg im Allgäu, Bavaria. Modern dark design with service showcase, gallery, and contact form.
+            </p>
+            <ul class="portfolio-card__details">
+              <li><strong>Client:</strong> LaserCNC Allgäu, Lindenberg i.A.</li>
+              <li><strong>Stack:</strong> HTML · CSS · Vanilla JS</li>
+              <li><strong>Scope:</strong> Design, development, copywriting</li>
+              <li><strong>Language:</strong> German (DE)</li>
+            </ul>
+            <a href="https://keen-raindrop-94ec98.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm portfolio-card__cta">
+              View Live Site &nbsp;&#10148;
+            </a>
+          </div>
+        </div>
+
+        <!-- Placeholder card -->
+        <div class="portfolio-card portfolio-card--placeholder">
+          <div class="placeholder-icon">+</div>
+          <h3>Your project here?</h3>
+          <p>I'm currently taking on new clients. Let's build something great together.</p>
+          <a href="#contact" class="btn btn--primary btn--sm">Get in touch</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact__layout">
+      <div class="contact__info">
+        <span class="section-tag">Contact</span>
+        <h2>Let's build something together</h2>
+        <p>Have a project in mind? I'd love to hear about it. Fill out the form and I'll get back to you within 24 hours.</p>
+
+        <div class="contact__details">
+          <div class="contact__detail">
+            <div class="contact__detail-icon">&#128205;</div>
+            <div>
+              <strong>Location</strong>
+              <span>Bavaria, Germany</span>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">&#9993;</div>
+            <div>
+              <strong>Email</strong>
+              <span><a href="mailto:hello@pixidigital.de">hello@pixidigital.de</a></span>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">&#128336;</div>
+            <div>
+              <strong>Response time</strong>
+              <span>Within 24 hours</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__languages">
+          <p class="lang-note">Feel free to write in:</p>
+          <div class="lang-chips lang-chips--dark">
+            <span class="chip chip--sm">🇩🇪 Deutsch</span>
+            <span class="chip chip--sm">🇬🇧 English</span>
+            <span class="chip chip--sm">🇭🇺 Magyar</span>
+            <span class="chip chip--sm">🇭🇷 Hrvatski</span>
+            <span class="chip chip--sm">🇷🇸 Srpski</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact__form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="service">Service needed</label>
+            <select id="service" name="service">
+              <option value="">Select service …</option>
+              <option value="Web Design">Web Design</option>
+              <option value="Logo Design">Logo Design</option>
+              <option value="Automation">Automation</option>
+              <option value="Signage">Signage</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Budget</label>
+            <select id="budget" name="budget">
+              <option value="">Select range …</option>
+              <option value="300-500">€300 – €500</option>
+              <option value="500-1000">€500 – €1,000</option>
+              <option value="1000-2000">€1,000 – €2,000</option>
+              <option value="2000-5000">€2,000 – €5,000</option>
+              <option value="5000+">€5,000+</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Tell me about your project *</label>
+          <textarea id="message" name="message" rows="5" placeholder="Describe your business, what you need, and any relevant details …" required></textarea>
+        </div>
+        <div class="form-group form-group--checkbox">
+          <input type="checkbox" id="privacy" name="privacy" required />
+          <label for="privacy">I agree to the
+            <button type="button" class="privacy-link" id="openPrivacyModal">Privacy Policy</button>. *
+          </label>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full" id="submitBtn" disabled>
+          Send Message &nbsp;&#10148;
+        </button>
+        <div class="form-success" id="formSuccess">
+          &#10003; Message sent! I'll get back to you within 24 hours.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__layout">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo">
+          <span class="logo-dot"></span>
+          Pixi<span class="logo-accent">Digital</span>
+        </a>
+        <p>Web design & AI automation for small businesses in Bavaria and beyond.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Web Design</a></li>
+          <li><a href="#services">AI Automation</a></li>
+          <li><a href="#services">AI Chatbots</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p>Bavaria, Germany</p>
+        <p><a href="mailto:hello@pixidigital.de">hello@pixidigital.de</a></p>
+        <div class="footer__langs">
+          <span title="German">🇩🇪</span>
+          <span title="English">🇬🇧</span>
+          <span title="Hungarian">🇭🇺</span>
+          <span title="Croatian">🇭🇷</span>
+          <span title="Serbian">🇷🇸</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Pixi Digital. All rights reserved.</p>
+        <p><a href="#">Impressum</a> &middot; <a href="#">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PRIVACY POLICY MODAL -->
+  <div class="modal-overlay" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <div class="modal__header">
+        <h2 id="modalTitle">Privacy Policy</h2>
+        <button class="modal__close" id="closePrivacyModal" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal__body">
+        <p class="modal__updated">Last updated: April 2026</p>
+
+        <h3>1. Controller</h3>
+        <p>Pixi Digital<br />Bavaria, Germany<br />Email: <a href="mailto:hello@pixidigital.de">hello@pixidigital.de</a></p>
+
+        <h3>2. Data We Collect</h3>
+        <p>When you submit the contact form, we collect the following personal data: name, email address, company name (optional), and the content of your message. This data is provided voluntarily by you.</p>
+
+        <h3>3. Purpose and Legal Basis</h3>
+        <p>Your data is processed solely to respond to your enquiry and, where applicable, to initiate a business relationship. The legal basis is Art. 6(1)(b) GDPR (performance of a contract or pre-contractual measures) and Art. 6(1)(f) GDPR (legitimate interest in responding to business enquiries).</p>
+
+        <h3>4. Data Processor – Formspree</h3>
+        <p>Contact form submissions are processed by Formspree, Inc. (USA). Formspree acts as a data processor under a Data Processing Agreement. Data may be transferred to the US under Standard Contractual Clauses. For details, see <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener">Formspree's Privacy Policy</a>.</p>
+
+        <h3>5. Retention Period</h3>
+        <p>Your data is retained only as long as necessary to process your enquiry and for any follow-up communication, and will be deleted thereafter unless statutory retention obligations apply.</p>
+
+        <h3>6. Your Rights (GDPR)</h3>
+        <p>Under the GDPR you have the right to access, rectify, erase, restrict or object to the processing of your personal data, and the right to data portability. You also have the right to lodge a complaint with a supervisory authority. To exercise any of these rights, contact us at <a href="mailto:hello@pixidigital.de">hello@pixidigital.de</a>.</p>
+
+        <h3>7. No Obligation</h3>
+        <p>Providing your personal data is voluntary. However, without your name and email address we are unable to respond to your enquiry.</p>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn--primary btn--sm" id="acceptPrivacy">Accept &amp; Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
